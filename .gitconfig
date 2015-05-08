@@ -1,0 +1,11 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+    l = log --pretty=oneline -n 20 --graph
+    s = status -sb
