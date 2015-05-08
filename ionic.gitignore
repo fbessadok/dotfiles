@@ -1,0 +1,27 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+platforms/
+plugins/
+app/bower_components/
+tmp/
+temp/
+dist/
+.sass-cache
+
+/www/css/
+/www/lib/
+
+/resources/android
+
+*.log
+*.tmp
+*.tmp.*
+*.keystore
+*.sw[cdmnop]
+log.txt
+
+.DS_Store
+
+
