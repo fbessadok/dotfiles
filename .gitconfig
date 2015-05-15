@@ -9,3 +9,5 @@
 
     l = log --pretty=oneline -n 20 --graph
     s = status -sb
+
+    squash = "!f() { git reset --soft master && git ci -m \"$1\"; }; f"
